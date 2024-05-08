@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
+    "start:scan": "node monitors/scan.js",
     "dev:bot": "nodemon -V -L index.js",
     "dev:scan": "nodemon -V -L monitors/scan.js"
   },
