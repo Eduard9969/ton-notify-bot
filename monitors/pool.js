@@ -7,7 +7,7 @@ const pools = []
 
 const updatePool = async () => {
   try {
-    const { data } = await axios.get('https://tonapi.io/v2/staking/pools?include_unverified=true')
+    const { data } = await axios.get('https://tonapi.io/v2/staking/pools')
 
     pools.splice(0, pools.length)
     pools.push(data.pools)
