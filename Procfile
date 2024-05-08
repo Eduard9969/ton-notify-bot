@@ -1,2 +1,2 @@
 worker: npm run start
-scan: npm run scan
+scan: npm run start:scan
